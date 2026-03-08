@@ -1,0 +1,92 @@
+name: vocabvault
+description: "VocabVault: Smart Flashcard & Translator - A mobile app for learning vocabulary with AI-powered translations and flashcard reviews."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Design
+  cupertino_icons: ^1.0.8
+  material_design_icons_flutter: ^7.0.7296
+
+  # State Management
+  flutter_bloc: ^8.1.5
+  bloc: ^8.1.4
+
+  # Dependency Injection
+  get_it: ^7.6.4
+
+  # Networking & API
+  dio: ^5.3.1
+  json_annotation: ^4.8.1
+  freezed_annotation: ^2.4.2
+
+  # Local Database & Storage
+  sqflite: ^2.3.3
+  path: ^1.8.3
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.2.2
+
+  # Routing
+  auto_route: ^8.0.0
+
+  # ML Kit & Image Processing
+  google_mlkit_text_recognition: ^0.11.0
+  google_mlkit_commons: ^0.6.0
+  image_picker: ^1.0.4
+  camera: ^0.10.5+5
+  image: ^4.0.17
+
+  # AI & LLM
+  google_generative_ai: ^0.4.0
+
+  # Environment
+  flutter_dotenv: ^5.0.2
+
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.0.0
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # Code Generation
+  build_runner: ^2.4.8
+  freezed: ^2.4.7
+  json_serializable: ^6.7.1
+  auto_route_generator: ^8.0.0
+
+  # Testing
+  mockito: ^5.4.4
+  mocktail: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - .env
