@@ -275,7 +275,7 @@ GEMINI_API_KEY=your_real_api_key_here
 ### การเลือกโมเดลที่เหมาะสม
 ```env
 # โมเดลแนะนำสำหรับการใช้งานทั่วไป (โควต้ามาก)
-GEMINI_MODEL_NAME=gemini-1.5-flash
+GEMINI_MODEL_NAME=gemini-2.5-flash
 
 # โมเดลอื่นๆ ที่สามารถเลือกใช้:
 # gemini-pro (โควตาปานกลาง)
